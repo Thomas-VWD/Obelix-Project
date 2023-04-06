@@ -1,8 +1,8 @@
-function Button ({next, previous}){
+function Button({ next, previous }) {
 
     return <>
-    <button onClick={next}>Next</button>
-    <Button onClick={previous}>Previous</Button>
+        <button onClick={next}>Next</button>
+        <button onClick={previous}>Previous</button>
     </>
 }
 
