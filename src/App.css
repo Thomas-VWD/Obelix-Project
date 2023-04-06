@@ -1,0 +1,33 @@
+col#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  color: red;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.p {
+  color: black;
+  font-size: large, 2rem;
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  text-align: center;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+img {
+  align-self: center;
+  height: 75%;
+  width: 50%;
+}
